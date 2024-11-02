@@ -1,0 +1,40 @@
+h1 {
+  color: goldenrod;
+  text-align: center;
+  font-size: 50px;
+  background-color: black;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6 {
+  font-size: 40px;
+  color: brown;
+  cursor: pointer;
+  border-radius: 3px;
+  border-color: #b87333;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover {
+  background-color: #b87333;
+}
+
+.allPaintings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #b87333;
+  column-gap: 200px;
+  row-gap: 100px;
+}
+
+.renaissance, .baroque, .impressionism, .postImpressionism, .cubism, .surrealism {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img12 {
+  transition: transform 1.5 ease;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover, #img8:hover, #img9:hover, #img10:hover, #img11:hover, #img12:hover {
+  transform: scale(1.5);
+}
