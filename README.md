@@ -1,0 +1,2 @@
+I want people to choose their favorite painting, so I’m providing options from different genres, with two paintings for each genre. When you hover over a painting, it will zoom in, and by clicking on it, you'll be taken to the original page to view more details about the artwork. 
+To enhance the experience, I think I should add more artists and display information about the artist and the painting's background when you hover over each painting.
